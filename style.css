@@ -1,0 +1,19 @@
+body {
+  background: #333;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+path {
+  stroke-linecap: round;
+}
+
+path.trace {
+    stroke-dashoffset: 0 !important;
+    transition: all 1s linear;
+}
